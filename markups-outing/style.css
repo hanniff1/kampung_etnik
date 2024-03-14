@@ -951,6 +951,10 @@ iframe {
   width: 100%;
 }
 
+.mu-copy-right span {
+  color: #468847;
+}
+
 .mu-social-media {
   display: inline;
   float: left;
