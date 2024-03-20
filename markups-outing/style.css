@@ -156,6 +156,10 @@ button:focus {
   border: none;
 }
 
+button .btn-selengkapnya {
+  color: #449c44;
+}
+
 iframe {
   border: none;
 }
@@ -573,7 +577,7 @@ iframe {
 }
 
 .mu-featured-tours-single {
-  background-color: #f8f8f8;
+  background-color: #f0ebeb;
   display: inline;
   float: left;
   width: 100%;
@@ -618,7 +622,6 @@ iframe {
   text-transform: capitalize;
   float: right;
 }
-
 /*--------------------*/
 /* TRAVELERS TESTIMONIALS */
 /*--------------------*/
@@ -893,7 +896,7 @@ iframe {
   padding: 1em;
   margin-bottom: 0.75rem;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #468847;
+  color: #449c44;
   background-color: #dff0d8;
   border: 1px solid #d6e9c6;
   -webkit-border-radius: 4px;
