@@ -1,0 +1,19 @@
+body {
+   font-family: 'popins' ; 
+}
+h3{
+    text-align: center;
+    margin-bottom: 12px;
+}
+table{
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    color: #444;
+}
+
+table th,
+table td {
+    border: 1px solid #f5f5f5;
+    padding: 7px 17px;
+}
