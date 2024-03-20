@@ -149,6 +149,9 @@ blockquote p {
 button {
   padding: 5px 15px;
   border: none;
+  background-color: #006eff;
+  color: #fff;
+  border-radius: 5px;
 }
 
 button:focus {
@@ -156,9 +159,7 @@ button:focus {
   border: none;
 }
 
-button .btn-selengkapnya {
-  color: #449c44;
-}
+
 
 iframe {
   border: none;
