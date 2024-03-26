@@ -236,6 +236,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="mu-featured-tours-area">
+                
                 <h2>SPOT WAHANA</h2>
                 <p class="mu-title-content">
                   Para wisatawan bisa mencoba wahana menarik di wisata Kebumen
