@@ -1,9 +1,13 @@
+<?php
+  include("./navbar.php")
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/pesan.css" />
+    <link rel="stylesheet" href="css/pesan.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
@@ -11,7 +15,8 @@
     <title>Pesan</title>
   </head>
   <body>
-    <h3>Pemesanan Wahana</h3>
+    <br>
+    <h1>Pemesanan Wahana</h1>
     <table>
       <thead>
         <tr>
@@ -91,7 +96,7 @@
     <br>
 
     
-    <h3>Pemesanan Villa</h3>
+    <h1>Pemesanan Villa</h1>
     <table>
       <thead>
         <tr>
