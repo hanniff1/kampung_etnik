@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  background: #f0faff;
+}
+header {
+  background: #4a98f7;
+  width: 100%;
+  height: 100px;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+header .logo {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 5px 0;
+  margin: 0 10px;
+  border: 3px solid transparent;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+header nav ul li a:hover,
+header nav ul li a.active {
+  border-bottom-color: dodgerblue;
+}
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+.hamburger div {
+  width: 30px;
+  height: 3px;
+  margin: 5px 0;
+  background: #000;
+}
+
+/* slider image */
+.main {
+  height: 100vh;
+  width: 100%;
+}
+.wrapper,
+.slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.slide {
+  overflow: hidden;
+}
+.slide::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+.slide .image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slide .image-data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}
+.image-data span.text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+.image-data h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+}
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #333;
+  background: #fff;
+  text-decoration: none;
+  margin-top: 25px;
+  transition: all 0.3s ease;
+}
+a.button:hover {
+  color: #fff;
+  background-color: #c87e4f;
+}
+
+/* swiper button css */
+.nav-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+.swiper-button-next {
+  right: 50px;
+}
+.swiper-button-prev {
+  left: 50px;
+}
+.nav-btn::before,
+.nav-btn::after {
+  font-size: 25px;
+  color: #fff;
+}
+.swiper-pagination-bullet {
+  opacity: 1;
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  visibility: hidden;
+}
+.swiper-pagination-bullet-active {
+  border: 2px solid #fff;
+  background-color: #c87e4f;
+}
+
+li .login {
+  width: 100px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  text-align: center;
+}
+/* .about {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.about .box-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 50px;
+}
+
+.about .box-about .box img {
+  width: 500px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.about .box-about .box h1 {
+  margin-bottom: 10px;
+}
+
+.about .box-about .box p {
+  margin-bottom: 20px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.about .box-about .box button {
+  width: 160px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  background-color: #316acc;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.3s ease;
+  -webkit-border-radius: all 0.3s ease;
+  -moz-border-radius: all 0.3s ease;
+  -ms-border-radius: all 0.3s ease;
+  -o-border-radius: all 0.3s ease;
+} */
+
+@media only screen and (max-width: 900px) {
+  header {
+    padding: 0 30px;
+  }
+  .nav-btn {
+    visibility: hidden;
+  }
+  .swiper-pagination-bullet {
+    visibility: visible;
+  }
+  /* .about .box-about {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .about .box-about .box img {
+    width: 500px;
+  } */
+
+  @layer;
+}
+@media only screen and (max-width: 700px) {
+  .hamburger {
+    display: block;
+  }
+  header nav {
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    top: 70px;
+    width: 100%;
+    background-color: #4a98f7;
+    padding: 30px;
+    transition: 0.3s;
+    z-index: 3;
+  }
+  header #nav_check:checked ~ nav {
+    left: 0;
+  }
+  header nav ul {
+    display: block;
+  }
+  header nav ul li a {
+    margin: 5px 0;
+  }
+  .about {
+    display: block;
+  }
+}

@@ -1,3 +1,7 @@
+<?php
+  include("./navbar.php")
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -43,7 +47,6 @@
     />
     <!-- Main Style -->
     <link href="css/style.css" rel="stylesheet" />
-
     <!-- Fonts -->
 
     <!-- Poppins For Title -->
