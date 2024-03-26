@@ -345,7 +345,7 @@
                 <form action="pesan.html" method="get">
                   <button class="btn-pesan" type="submit">Pesan</button>
                 </form>
-                <!-- <a href="#" class="mu-book-now-btn">Pesan</a>
+               <a href="#" class="mu-book-now-btn">Pesan</a>
 >>>>>>> 72db50fff10204eb0b5fbcdb2126c087f966f338
 							<button type="submit"><b>PESAN</button></b> -->
                 <!-- End Featured Tours content -->
