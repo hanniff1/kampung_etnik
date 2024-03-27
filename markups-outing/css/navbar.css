@@ -48,7 +48,6 @@ header nav ul li a.active {
   width: 30px;
   height: 3px;
   margin: 5px 0;
-  background: #000;
 }
 
 /* slider image */
@@ -238,6 +237,7 @@ li .login {
     top: 70px;
     width: 100%;
     background-color: #4a98f7;
+
     padding: 30px;
     transition: 0.3s;
     z-index: 3;
