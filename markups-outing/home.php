@@ -236,6 +236,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="mu-featured-tours-area">
+                
                 <h2>SPOT WAHANA</h2>
                 <p class="mu-title-content">
                   Para wisatawan bisa mencoba wahana menarik di wisata Kebumen
@@ -323,7 +324,7 @@
                     </div>
                   </div>
                 </div>
-                <form action="pesan.html" method="get">
+                <form action="pesann.php" method="get">
                   <button class="btn-pesan" type="submit">Pesan</button>
                 </form>
                 <!-- <a href="#" class="mu-book-now-btn">Pesan</a>
