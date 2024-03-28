@@ -51,12 +51,8 @@
     <!-- IMAGE SLIDE -->
     <!-- Link Swiper's CSS -->
 
-
-
-
-
     <!-- Swiper JS -->
-    <script src="JS/swiper-bundle.min.js"></script>
+    <script src="css/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
@@ -83,20 +79,20 @@
    </head>
    <body>
      <section class="main swiper mySwiper">
-       <div class="wrapper swiper-wrapper">
+       <div class="wrapper swiper-wrapper"> -->
          <div class="slide swiper-slide">
-           <img src="img/depankKE.jpg" alt="" class="image" />
-           <div class="image-data">
+           <img src="assets/images/depankKE.jpg" alt="" class="image" />
+           <!-- <!-- <div class="image-data">
              <span class="text">Enjoy the finest coffee drinks.</span>
              <h2>
                Enjoy Our Exclusive <br />
                Coffee and Cocktails
-             </h2>
+             </h2> -->
              <a href="#" class="button">About Us</a>
            </div>
          </div>
          <div class="slide swiper-slide">
-           <img src="img/idk.jpg" alt="" class="image" />
+           <img src="assets/images/idk.jpg" alt="" class="image" />
            <div class="image-data">
              <span class="text">We really like what we do.</span>
              <h2>
@@ -107,7 +103,7 @@
            </div>
          </div>
          <div class="slide swiper-slide">
-           <img src="img/y.jpg" alt="" class="image" />
+           <img src="assets/images/y.jpg" alt="" class="image" />
            <div class="image-data">
              <span class="text">Making Our coffee with lover.</span>
              <h2>
@@ -123,7 +119,8 @@
        <div class="swiper-button-prev nav-btn"></div>
        <div class="swiper-pagination"></div>
      </section>
- 
+
+
      <!-- Swiper JS -->
      <script src="JS/swiper-bundle.min.js"></script>
  
@@ -141,7 +138,35 @@
            prevEl: ".swiper-button-prev",
          },
        });
-     </script>
+       let slideIndex = 1;
+  showSlides(slideIndex);
+// <script>
+//   // Next/previous controls
+//   function plusSlides(n) {
+//   showSlides(slideIndex += n);
+//   }
+
+//   // Thumbnail image controls
+//   function currentSlide(n) {
+//   showSlides(slideIndex = n);
+//   }
+
+//   function showSlides(n) {
+  // let i;
+  // let slides = document.getElementsByClassName("mySlides");
+  // let dots = document.getElementsByClassName("dot");
+  // if (n > slides.length) {slideIndex = 1}
+  // if (n < 1) {slideIndex = slides.length}
+  // for (i = 0; i < slides.length; i++) {
+  //   slides[i].style.display = "none";
+  // }
+  // for (i = 0; i < dots.length; i++) {
+  //   dots[i].className = dots[i].className.replace(" active", "");
+  // }
+  // slides[slideIndex-1].style.display = "block";
+  // dots[slideIndex-1].className += " active";
+  // }
+    //  </script>
     <!-- END IMAGE SLIDE -->
     <!-- ABOUT AND IMAGE -->
     <!-- <div class="about">
@@ -159,6 +184,38 @@
       </div>
     </div> -->
     <!-- END ABOUT AND IMAGE -->
+<!-- <script>
+
+    let slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  }
+</script> -->
+
   </body>
 </html>
 </body>
