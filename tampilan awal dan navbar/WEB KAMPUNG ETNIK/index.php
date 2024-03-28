@@ -60,18 +60,18 @@
         <section class="main swiper mySwiper">
             <div class="wrapper swiper-wrapper">
                 <div class="slide swiper-slide">
-                    <img src="img/depankKE.jpg" alt="" class="image" />
+                    <img src="" alt="" class="image" />
                     <div class="image-data">
                         <span class="text">Enjoy the finest coffee drinks.</span>
                         <h2>
-                            Enjoy Our Exclusive <br />
+                            Enjoy haniiiiiiiiiii <br />
                             Coffee and Cocktails
                         </h2>
                         <a href="#" class="button">About Us</a>
                     </div>
                 </div>
                 <div class="slide swiper-slide">
-                    <img src="img/idk.jpg" alt="" class="image" />
+                    <img src="img/depankKE.jpg" class=" image" />
                     <div class="image-data">
                         <span class="text">We really like what we do.</span>
                         <h2>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="slide swiper-slide">
-                    <img src="img/y.jpg" alt="" class="image" />
+                    <img src="img/idk.jpg" alt="" class="image" />
                     <div class="image-data">
                         <span class="text">Making Our coffee with lover.</span>
                         <h2>
