@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="slide swiper-slide">
-                    <img src="img/depankKE.jpg" class=" image" />
+                    <img src="./img/depankKE.jpg" class=" image" />
                     <div class="image-data">
                         <span class="text">We really like what we do.</span>
                         <h2>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="slide swiper-slide">
-                    <img src="img/idk.jpg" alt="" class="image" />
+                    <img src="./img/idk.jpg" alt="" class="image" />
                     <div class="image-data">
                         <span class="text">Making Our coffee with lover.</span>
                         <h2>
