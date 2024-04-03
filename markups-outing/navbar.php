@@ -85,8 +85,8 @@
                     <div class="image-data">
                         <span class="text"></span>
                         <h2>
-                            Enjoy Our Exclusive <br />
-                            Coffee and Cocktails
+                            Selamat Datang <br />
+                            di Website Kampoeng Etnik
                         </h2>
                         <a href="#" class="button">About Us</a>
                     </div>

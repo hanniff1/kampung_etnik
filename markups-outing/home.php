@@ -145,8 +145,9 @@
 					<div class="col-md-12">
 						<div class="mu-video-area">
 							<h2>Tour Kampoeng Etnik</h2>
-							<p class="mu-title-content">Review dari SMK N 1 KEBUMEN wehwfrqwertyuioplkjhgfdsazxcvbnm
-                                qwertyuioplkjhgfdsazxcvbnmmqwertyuioplkjhgfdsazxcvbnmm
+							<p class="mu-title-content">Jelajahi keindahan wisata yang 
+                                memukau dan kaya akan warisan budaya dalam tour virtual 
+                                kami. Mari kita mulai petualangan ini bersama sama.
                             </p>
 
         <!-- Start Video content -->
