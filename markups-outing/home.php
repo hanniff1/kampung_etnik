@@ -138,72 +138,28 @@
             </div>
         </section>
         <!-- End About -->
-
-        <!-- Start Why Us -->
-        <!-- <section id="mu-why-us"> -->
-        <!-- <div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-why-us-area">
-							<h2>Why Us?</h2>
-							<div class="mu-why-us-content">
-								<div class="row">
-									<div class="col-md-4">
-										<div class="mu-why-us-single">
-											<div class="my-why-us-single-icon">
-												<i class="fa fa-bed" aria-hidden="true"></i>
-											</div>
-											<h3>Luxurious Hotels</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eum corporis commodi, ipsum sequi quae nemo quasi voluptatibus quaerat nulla! Doloribus cumque ipsum, tempore veritatis quibusdam quae numquam minus iste!</p>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="mu-why-us-single">
-											<div class="my-why-us-single-icon">
-												<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-											</div>
-											<h3>The Best Service</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eum corporis commodi, ipsum sequi quae nemo quasi voluptatibus quaerat nulla! Doloribus cumque ipsum, tempore veritatis quibusdam quae numquam minus iste!</p>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="mu-why-us-single">
-											<div class="my-why-us-single-icon">
-												<i class="fa fa-plane" aria-hidden="true"></i>
-											</div>
-											<h3>Unique Experience</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eum corporis commodi, ipsum sequi quae nemo quasi voluptatibus quaerat nulla! Doloribus cumque ipsum, tempore veritatis quibusdam quae numquam minus iste!</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-        <!-- End Why Us -->
-
         <!-- Start Video -->
-        <!-- <section id="mu-video"> -->
-        <!-- <div class="container">
+        <section id="mu-video">
+         <div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mu-video-area">
-							<h2>Watch Our Recent Trip Video</h2>
-							<p class="mu-title-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum impedit nostrum porro possimus nesciunt voluptate, id nam. Harum deserunt nobis esse iste voluptatem cumque neque quo sunt velit. Nostrum, provident!</p> -->
+							<h2>Tour Kampoeng Etnik</h2>
+							<p class="mu-title-content">Review dari SMK N 1 KEBUMEN wehwfrqwertyuioplkjhgfdsazxcvbnm
+                                qwertyuioplkjhgfdsazxcvbnmmqwertyuioplkjhgfdsazxcvbnmm
+                            </p>
 
         <!-- Start Video content -->
-        <!-- <div class="mu-video-content">		
-								<iframe width="854" height="480" src="https://www.youtube.com/embed/58K5QL0x6Zo" allowfullscreen></iframe>							
-							</div> -->
+        <div class="mu-video-content">		
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nzC_YJgugxg?si=YPjYQxAgCwo_p0Si" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>							
+							</div>
         <!-- End Video content -->
 
-        <!-- </div>
+        </div>
 					</div>
 				</div>
 			</div>	
-		</section> -->
+		</section>
         <!-- End Video -->
 
         <!-- Start Featured Tours -->
