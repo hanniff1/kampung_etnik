@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/navbar.css" />
 
     <link rel="stylesheet" href="css/navbar.css">
 </head>
@@ -20,7 +19,7 @@
         <nav>
             <ul>
                 <li style="list-style: none;">
-                    <a href="" class="active">Home</a>
+                    <a href="" class="">Home</a>
                 </li>
                 <li style="list-style: none;">
                     <a href="">About</a>
@@ -70,106 +69,108 @@
     });
     </script>
 
-     <!-- IMAGE SLIDE -->
-     <!-- Link Swiper's CSS -->
-     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- IMAGE SLIDE -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
-     <!-- CSS -->
-     <link rel="stylesheet" href="css/style.css" />
-   </head>
-   <body>
-     <section class="main swiper mySwiper">
-       <div class="wrapper swiper-wrapper"> -->
-         <div class="slide swiper-slide">
-           <img src="assets/images/depankKE.jpg" alt="" class="image" />
-           <!-- <!-- <div class="image-data">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <section class="main swiper mySwiper">
+            <div class="wrapper swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <img src="assets/images/depankKE.jpg" alt="" class="image" />
+                    <!-- <div class="image-data">
              <span class="text">Enjoy the finest coffee drinks.</span>
              <h2>
                Enjoy Our Exclusive <br />
                Coffee and Cocktails
              </h2> -->
-             <a href="#" class="button">About Us</a>
-           </div>
-         </div>
-         <div class="slide swiper-slide">
-           <img src="assets/images/idk.jpg" alt="" class="image" />
-           <div class="image-data">
-             <span class="text">We really like what we do.</span>
-             <h2>
-               Coffee Beans with a <br />
-               Perfect Aroma
-             </h2>
-             <a href="#" class="button">About Us</a>
-           </div>
-         </div>
-         <div class="slide swiper-slide">
-           <img src="assets/images/y.jpg" alt="" class="image" />
-           <div class="image-data">
-             <span class="text">Making Our coffee with lover.</span>
-             <h2>
-               Alluring and Fragrant <br />
-               Coffee Aroma
-             </h2>
-             <a href="#" class="button">About Us</a>
-           </div>
-         </div>
-       </div>
- 
-       <div class="swiper-button-next nav-btn"></div>
-       <div class="swiper-button-prev nav-btn"></div>
-       <div class="swiper-pagination"></div>
-     </section>
+                    <a href="#" class="button">About Us</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="assets/images/idk.jpg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">We really like what we do.</span>
+                    <h2>
+                        Coffee Beans with a <br />
+                        Perfect Aroma
+                    </h2>
+                    <a href="#" class="button">About Us</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="assets/images/y.jpg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">Making Our coffee with lover.</span>
+                    <h2>
+                        Alluring and Fragrant <br />
+                        Coffee Aroma
+                    </h2>
+                    <a href="#" class="button">About Us</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+        </section>
 
 
-     <!-- Swiper JS -->
-     <script src="JS/swiper-bundle.min.js"></script>
- 
-     <!-- Initialize Swiper -->
-     <script>
-       var swiper = new Swiper(".mySwiper", {
-         slidesPerView: 1,
-         loop: true,
-         pagination: {
-           el: ".swiper-pagination",
-           clickable: true,
-         },
-         navigation: {
-           nextEl: ".swiper-button-next",
-           prevEl: ".swiper-button-prev",
-         },
-       });
-       let slideIndex = 1;
-  showSlides(slideIndex);
-// <script>
-//   // Next/previous controls
-//   function plusSlides(n) {
-//   showSlides(slideIndex += n);
-//   }
+        <!-- Swiper JS -->
+        <script src="JS/swiper-bundle.min.js"></script>
 
-//   // Thumbnail image controls
-//   function currentSlide(n) {
-//   showSlides(slideIndex = n);
-//   }
+        <!-- Initialize Swiper -->
+        <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        // <script>
+        //   // Next/previous controls
+        //   function plusSlides(n) {
+        //   showSlides(slideIndex += n);
+        //   }
 
-//   function showSlides(n) {
-  // let i;
-  // let slides = document.getElementsByClassName("mySlides");
-  // let dots = document.getElementsByClassName("dot");
-  // if (n > slides.length) {slideIndex = 1}
-  // if (n < 1) {slideIndex = slides.length}
-  // for (i = 0; i < slides.length; i++) {
-  //   slides[i].style.display = "none";
-  // }
-  // for (i = 0; i < dots.length; i++) {
-  //   dots[i].className = dots[i].className.replace(" active", "");
-  // }
-  // slides[slideIndex-1].style.display = "block";
-  // dots[slideIndex-1].className += " active";
-  // }
-    //  </script>
-    <!-- END IMAGE SLIDE -->
-    <!-- ABOUT AND IMAGE -->
-    <!-- <div class="about">
+        //   // Thumbnail image controls
+        //   function currentSlide(n) {
+        //   showSlides(slideIndex = n);
+        //   }
+
+        //   function showSlides(n) {
+        // let i;
+        // let slides = document.getElementsByClassName("mySlides");
+        // let dots = document.getElementsByClassName("dot");
+        // if (n > slides.length) {slideIndex = 1}
+        // if (n < 1) {slideIndex = slides.length}
+        // for (i = 0; i < slides.length; i++) {
+        //   slides[i].style.display = "none";
+        // }
+        // for (i = 0; i < dots.length; i++) {
+        //   dots[i].className = dots[i].className.replace(" active", "");
+        // }
+        // slides[slideIndex-1].style.display = "block";
+        // dots[slideIndex-1].className += " active";
+        // }
+        //  
+        </script>
+        <!-- END IMAGE SLIDE -->
+        <!-- ABOUT AND IMAGE -->
+        <!-- <div class="about">
       <div class="container">
         <div class="box-about">
           <div class="box">
@@ -183,8 +184,8 @@
         </div>
       </div>
     </div> -->
-    <!-- END ABOUT AND IMAGE -->
-<!-- <script>
+        <!-- END ABOUT AND IMAGE -->
+        <!-- <script>
 
     let slideIndex = 1;
   showSlides(slideIndex);
@@ -216,7 +217,8 @@
   }
 </script> -->
 
-  </body>
+    </body>
+
 </html>
 </body>
 

@@ -113,7 +113,7 @@
                                     <div class="mu-about-right">
                                         <h2>Kampoeng Etnik Kebumen</h2>
                                         <p>
-                                            Kampoeng Ethbjbnik menjadi destinasi baru di Kabumen Jawa
+                                            Kampoeng Etnik menjadi destinasi baru di Kabumen Jawa
                                             Tengah dengan konsep wisata keluarga yang ramah anak.
                                             Karena tempat piknik satu ini menyuguhkan berbagai macam
                                             spot menarik dengan wahana permainan seru didalamnya.
