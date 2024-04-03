@@ -93,47 +93,7 @@
 		</div>
 	</header> -->
     <!-- End Header -->
-    <section class="main swiper mySwiper">
-        <div class="wrapper swiper-wrapper">
-            <div class="slide swiper-slide">
-                <img src="img/depankKE.jpg" alt="" class="image" />
-                <div class="image-data">
-                    <span class="text">Enjoy the finest coffee drinks.</span>
-                    <h2>
-                        Enjoy Our Exclusive <br />
-                        Coffee and Cocktails
-                    </h2>
-                    <a href="#" class="button">About Us</a>
-                </div>
-            </div>
-            <div class="slide swiper-slide">
-                <img src="img/idk.jpg" alt="" class="image" />
-                <div class="image-data">
-                    <span class="text">We really like what we do.</span>
-                    <h2>
-                        Coffee Beans with a <br />
-                        Perfect Aroma
-                    </h2>
-                    <a href="#" class="button">About Us</a>
-                </div>
-            </div>
-            <div class="slide swiper-slide">
-                <img src="img/y.jpg" alt="" class="image" />
-                <div class="image-data">
-                    <span class="text">Making Our coffee with lover.</span>
-                    <h2>
-                        Alluring and Fragrant <br />
-                        Coffee Aroma
-                    </h2>
-                    <a href="#" class="button">About Us</a>
-                </div>
-            </div>
-        </div>
 
-        <div class="swiper-button-next nav-btn"></div>
-        <div class="swiper-button-prev nav-btn"></div>
-        <div class="swiper-pagination"></div>
-    </section>
     <!-- Start main content -->
     <main>
         <!-- Start About -->
@@ -153,7 +113,7 @@
                                     <div class="mu-about-right">
                                         <h2>Kampoeng Etnik Kebumen</h2>
                                         <p>
-                                            Kampoeng Etnik menjadi destinasi baru di Kabumen Jawa
+                                            Kampoeng Ethbjbnik menjadi destinasi baru di Kabumen Jawa
                                             Tengah dengan konsep wisata keluarga yang ramah anak.
                                             Karena tempat piknik satu ini menyuguhkan berbagai macam
                                             spot menarik dengan wahana permainan seru didalamnya.
@@ -373,161 +333,6 @@
         </section>
         <!-- End Featured Tours -->
 
-        <!-- Start Client Testimonials -->
-        <!-- <section id="mu-testimonials">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-testimonials-area">
-							<h2>What Our Travelers Says</h2>
-
-							<div class="mu-testimonials-block">
-								<ul class="mu-testimonial-slide">
-
-									<li>
-										<i class="fa fa-quote-left mu-client-quote" aria-hidden="true"></i>
-										<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."</p>
-										<img class="mu-rt-img" src="assets/images/traveler-1.jpg" alt="img">
-										<h5 class="mu-rt-name"> - Alice Boga</h5>
-										<span class="mu-rt-title">Zurich, Switzerland </span>
-									</li>
-
-									<li>
-										<i class="fa fa-quote-left mu-client-quote" aria-hidden="true"></i>
-										<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."</p>
-										<img class="mu-rt-img" src="assets/images/traveler-2.jpg" alt="img">
-										<h5 class="mu-rt-name"> - Jhon Doe</h5>
-										<span class="mu-rt-title">Pattaya., Thailand</span>
-									</li>
-
-									<li>
-										<i class="fa fa-quote-left mu-client-quote" aria-hidden="true"></i>
-										<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."</p>
-										<img class="mu-rt-img" src="assets/images/traveler-3.jpg" alt="img">
-										<h5 class="mu-rt-name"> - Jessica Doe</h5>
-										<span class="mu-rt-title">Bali, Indonesia</span>
-									</li>
-
-								</ul>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-        <!-- End Client Testimonials -->
-
-        <!-- Start Clients -->
-        <!-- <section id="mu-clients">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12"> -->
-        <!-- <div class="mu-clients-area">
-							<h2>Our Awesome Clients</h2>
-
-							<!-- Start Clients brand logo -->
-        <!-- <div class="mu-clients-slider">
-
-								<div class="mu-clients-single">
-									<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
-								</div> -->
-
-        <!-- <div class="mu-clients-single">
-									<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="assets/images/sponsor-logo-4.png" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="assets/images/sponsor-logo-5.png" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="assets/images/sponsor-logo-6.png" alt="Brand Logo">
-								</div>
-							</div> -->
-        <!-- End Clients brand logo -->
-        <!-- 
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-        <!-- End Clients -->
-
-        <!-- Start Call to Action -->
-        <!-- <section id="mu-callto-action">
-			<div class="container">
-				<div class="row col-md-12">
-					<div class="mu-callto-action-area">
-						<h2>Explore the world by making journey with us</h2>
-						<a class="mu-book-now-btn" href="#">Start Journey</a>
-					</div>
-				</div>
-			</div>
-		</section> -->
-        <!-- Start Call to Action -->
-
-        <!-- Start Contact -->
-        <!-- <section id="mu-contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-contact-area">
-							<h2>Contact Us</h2>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
-							 -->
-        <!-- Start Contact Content -->
-        <!-- <div class="mu-contact-content">
-								<div class="row">
-
-									<div class="col-md-12">
-										<div class="mu-contact-form-area">
-											<div id="form-messages"></div>
-											<form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group">                
-															<input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
-														</div>
-													</div> -->
-
-        <!-- <div class="col-md-6">
-														<div class="form-group">                
-															<input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
-														</div>    
-													</div>          
-												</div>
-
-												<div class="form-group">                
-													<input type="text" class="form-control" placeholder="Your Subject" id="subject" name="subject" required>
-												</div>
-
-												<div class="form-group">
-													<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
-												</div>
-												<button type="submit" class="mu-send-msg-btn"><span>Send Message</span></button>
-								        	</form>
-										</div>
-									</div>
-
-								</div>
-							</div> -->
-        <!-- End Contact Content
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-        <!-- End Contact -->
-
         <!-- Start Google Map -->
 
         <div id="mu-google-map">
@@ -588,24 +393,6 @@
 
     <!-- Custom js -->
     <script type="text/javascript" src="assets/js/custom.js"></script>
-
-    <script src="js/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
-    </script>
 </body>
 
 </html>
