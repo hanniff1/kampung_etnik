@@ -19,13 +19,13 @@
         <nav>
             <ul>
                 <li style="list-style: none;">
-                    <a href="" class="">Home</a>
+                    <a href="#" class="">Home</a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="">About</a>
+                    <a href="#mu-about">About</a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="">Spot</a>
+                    <a href="#mu-featured-tours">Spot</a>
                 </li>
                 <li style="list-style: none;">
                     <a href="">Ticket</a>
@@ -37,7 +37,7 @@
                     <a href="" class="login">Login </a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="" class="login">Registrasi</a>
+                    <a href="" class="register">Registrasi</a>
                 </li>
             </ul>
         </nav>
@@ -83,7 +83,7 @@
                 <div class="slide swiper-slide">
                     <img src="assets/images/depankKE.jpg" alt="" class="image" />
                     <div class="image-data">
-                        <span class="text">Enjoy the finest coffee drinks.</span>
+                        <span class="text"></span>
                         <h2>
                             Enjoy Our Exclusive <br />
                             Coffee and Cocktails
@@ -94,7 +94,7 @@
                 <div class="slide swiper-slide">
                     <img src="assets/images/idk.jpg" alt="" class="image" />
                     <div class="image-data">
-                        <span class="text">We really like what we do.</span>
+                        <span class="text"></span>
                         <h2>
                             Coffee Beans with a <br />
                             Perfect Aroma
@@ -105,7 +105,7 @@
                 <div class="slide swiper-slide">
                     <img src="assets/images/y.jpg" alt="" class="image" />
                     <div class="image-data">
-                        <span class="text">Making Our coffee with lover.</span>
+                        <span class="text"></span>
                         <h2>
                             Alluring and Fragrant <br />
                             Coffee Aroma
