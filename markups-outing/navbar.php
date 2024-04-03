@@ -19,13 +19,13 @@
         <nav>
             <ul>
                 <li style="list-style: none;">
-                    <a href="" class="">Home</a>
+                    <a href="#" class="">Home</a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="">About</a>
+                    <a href="#mu-about">About</a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="">Spot</a>
+                    <a href="#mu-featured-tours">Spot</a>
                 </li>
                 <li style="list-style: none;">
                     <a href="">Ticket</a>
@@ -37,7 +37,7 @@
                     <a href="" class="login">Login </a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="" class="login">Registrasi</a>
+                    <a href="" class="register">Registrasi</a>
                 </li>
             </ul>
         </nav>
