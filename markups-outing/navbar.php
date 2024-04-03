@@ -83,7 +83,7 @@
                 <div class="slide swiper-slide">
                     <img src="assets/images/depankKE.jpg" alt="" class="image" />
                     <div class="image-data">
-                        <span class="text">Enjoy the finest coffee drinks.</span>
+                        <span class="text"></span>
                         <h2>
                             Enjoy Our Exclusive <br />
                             Coffee and Cocktails
@@ -94,7 +94,7 @@
                 <div class="slide swiper-slide">
                     <img src="assets/images/idk.jpg" alt="" class="image" />
                     <div class="image-data">
-                        <span class="text">We really like what we do.</span>
+                        <span class="text"></span>
                         <h2>
                             Coffee Beans with a <br />
                             Perfect Aroma
@@ -105,7 +105,7 @@
                 <div class="slide swiper-slide">
                     <img src="assets/images/y.jpg" alt="" class="image" />
                     <div class="image-data">
-                        <span class="text">Making Our coffee with lover.</span>
+                        <span class="text"></span>
                         <h2>
                             Alluring and Fragrant <br />
                             Coffee Aroma
