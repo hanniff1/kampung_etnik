@@ -140,6 +140,7 @@
         <!-- End About -->
         <!-- Start Video -->
         <section id="mu-video">
+<<<<<<< HEAD
          <div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -148,19 +149,31 @@
 							<p class="mu-title-content">Jelajahi keindahan wisata yang 
                                 memukau dan kaya akan warisan budaya dalam tour virtual 
                                 kami. Mari kita mulai petualangan ini bersama sama.
+=======
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mu-video-area">
+                            <h2>Tour Kampoeng Etnik</h2>
+                            <p class="mu-title-content">Review dari SMK N 1 KEBUMEN
+>>>>>>> 2bc80f363d3e73b383456e00b28cc0618721f414
                             </p>
 
-        <!-- Start Video content -->
-        <div class="mu-video-content">		
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nzC_YJgugxg?si=YPjYQxAgCwo_p0Si" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>							
-							</div>
-        <!-- End Video content -->
+                            <!-- Start Video content -->
+                            <div class="mu-video-content">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/nzC_YJgugxg?si=YPjYQxAgCwo_p0Si"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <!-- End Video content -->
 
-        </div>
-					</div>
-				</div>
-			</div>	
-		</section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- End Video -->
 
         <!-- Start Featured Tours -->
@@ -260,29 +273,6 @@
                             <form action="pesann.php" method="get">
                                 <button class="btn-pesan" type="submit">Pesan</button>
                             </form>
-                            <!-- <a href="#" class="mu-book-now-btn">Pesan</a>
-=======
-                    <div class="col-md-4">
-                      <div class="mu-featured-tours-single">
-                        <img src="assets/images/fa.jpeg" alt="img" />
-                        <div class="mu-featured-tours-single-info">
-                          <h3>Mandi Salju</h3>
-                          <h4>Bebas</h4>
-                          <span class="mu-price-tag">0</span>
-                          <p>Kalian bisa menikmati wahana ini setelah pesan!</p>
-                          <br />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <form action="pesan.html" method="get">
-                  <button class="btn-pesan" type="submit">Pesan</button>
-                </form>
-               <a href="#" class="mu-book-now-btn">Pesan</a>
->>>>>>> 72db50fff10204eb0b5fbcdb2126c087f966f338
-							<button type="submit"><b>PESAN</button></b> -->
-                            <!-- End Featured Tours content -->
                         </div>
                     </div>
                 </div>
