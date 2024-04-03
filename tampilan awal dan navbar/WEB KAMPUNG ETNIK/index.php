@@ -2,42 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-
-    <!-- CSS -->
-
-    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <title>Responsive Navbar using HTML & CSS</title>
 </head>
 
 <body>
+    <!-- NAVBAR -->
     <header>
         <div class="logo">KAMPOENG ETNIK</div>
         <input type="checkbox" id="nav_check" hidden />
         <nav>
             <ul>
-                <li style="list-style: none;">
-                    <a href="" class="">Home</a>
+                <li>
+                    <a href="" class="active">Home</a>
                 </li>
-                <li style="list-style: none;">
+                <li>
                     <a href="">About</a>
                 </li>
-                <li style="list-style: none;">
+                <li>
                     <a href="">Spot</a>
                 </li>
-                <li style="list-style: none;">
+                <li>
                     <a href="">Ticket</a>
                 </li>
-                <li style="list-style: none;">
+                <li>
                     <a href="">Contact </a>
                 </li>
-                <li style="list-style: none;">
+                <li>
                     <a href="" class="login">Login </a>
-                </li>
-                <li style="list-style: none;">
-                    <a href="" class="login">Registrasi</a>
                 </li>
             </ul>
         </nav>
@@ -47,27 +46,7 @@
             <div></div>
         </label>
     </header>
-    <!-- IMAGE SLIDE -->
-    <!-- Link Swiper's CSS -->
-
-    <!-- Swiper JS -->
-    <script src="css/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
-    </script>
+    <!-- END NAVBAR -->
 
     <!-- IMAGE SLIDE -->
     <!-- Link Swiper's CSS -->
@@ -81,18 +60,18 @@
         <section class="main swiper mySwiper">
             <div class="wrapper swiper-wrapper">
                 <div class="slide swiper-slide">
-                    <img src="assets/images/depankKE.jpg" alt="" class="image" />
+                    <img src="" alt="" class="image" />
                     <div class="image-data">
                         <span class="text">Enjoy the finest coffee drinks.</span>
                         <h2>
-                            Enjoy Our Exclusive <br />
+                            Enjoy haniiiiiiiiiii <br />
                             Coffee and Cocktails
                         </h2>
                         <a href="#" class="button">About Us</a>
                     </div>
                 </div>
                 <div class="slide swiper-slide">
-                    <img src="assets/images/idk.jpg" alt="" class="image" />
+                    <img src="./img/depankKE.jpg" class=" image" />
                     <div class="image-data">
                         <span class="text">We really like what we do.</span>
                         <h2>
@@ -103,7 +82,7 @@
                     </div>
                 </div>
                 <div class="slide swiper-slide">
-                    <img src="assets/images/y.jpg" alt="" class="image" />
+                    <img src="./img/idk.jpg" alt="" class="image" />
                     <div class="image-data">
                         <span class="text">Making Our coffee with lover.</span>
                         <h2>
@@ -119,7 +98,6 @@
             <div class="swiper-button-prev nav-btn"></div>
             <div class="swiper-pagination"></div>
         </section>
-
 
         <!-- Swiper JS -->
         <script src="JS/swiper-bundle.min.js"></script>
@@ -138,35 +116,6 @@
                 prevEl: ".swiper-button-prev",
             },
         });
-        let slideIndex = 1;
-        showSlides(slideIndex);
-        // <script>
-        //   // Next/previous controls
-        //   function plusSlides(n) {
-        //   showSlides(slideIndex += n);
-        //   }
-
-        //   // Thumbnail image controls
-        //   function currentSlide(n) {
-        //   showSlides(slideIndex = n);
-        //   }
-
-        //   function showSlides(n) {
-        // let i;
-        // let slides = document.getElementsByClassName("mySlides");
-        // let dots = document.getElementsByClassName("dot");
-        // if (n > slides.length) {slideIndex = 1}
-        // if (n < 1) {slideIndex = slides.length}
-        // for (i = 0; i < slides.length; i++) {
-        //   slides[i].style.display = "none";
-        // }
-        // for (i = 0; i < dots.length; i++) {
-        //   dots[i].className = dots[i].className.replace(" active", "");
-        // }
-        // slides[slideIndex-1].style.display = "block";
-        // dots[slideIndex-1].className += " active";
-        // }
-        //  
         </script>
         <!-- END IMAGE SLIDE -->
         <!-- ABOUT AND IMAGE -->
@@ -185,41 +134,6 @@
       </div>
     </div> -->
         <!-- END ABOUT AND IMAGE -->
-        <!-- <script>
-
-    let slideIndex = 1;
-  showSlides(slideIndex);
-
-  // Next/previous controls
-  function plusSlides(n) {
-  showSlides(slideIndex += n);
-  }
-
-  // Thumbnail image controls
-  function currentSlide(n) {
-  showSlides(slideIndex = n);
-  }
-
-  function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  }
-</script> -->
-
     </body>
-
-</html>
-</body>
 
 </html>

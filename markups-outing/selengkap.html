@@ -15,6 +15,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/navbar.css" />
+
+    <link rel="stylesheet" href="css/navbar.css" />
     <style>
       body {
         /* display: flex; */
@@ -47,6 +53,61 @@
     </style>
   </head>
   <body>
+    <header>
+      <div class="logo">KAMPOENG ETNIK</div>
+      <input type="checkbox" id="nav_check" hidden />
+      <nav>
+        <ul>
+          <li style="list-style: none">
+            <a href="" class="active">Home</a>
+          </li>
+          <li style="list-style: none">
+            <a href="">About</a>
+          </li>
+          <li style="list-style: none">
+            <a href="">Spot</a>
+          </li>
+          <li style="list-style: none">
+            <a href="">Ticket</a>
+          </li>
+          <li style="list-style: none">
+            <a href="">Contact </a>
+          </li>
+          <li style="list-style: none">
+            <a href="" class="login">Login </a>
+          </li>
+          <li style="list-style: none">
+            <a href="" class="login">Registrasi</a>
+          </li>
+        </ul>
+      </nav>
+      <label for="nav_check" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+    </header>
+    <!-- IMAGE SLIDE -->
+    <!-- Link Swiper's CSS -->
+
+    <!-- Swiper JS -->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <!-- <img src="assets/images/fg.jpeg" width="100%" /> -->
     <!-- <div class="container"> -->
     <img src="assets/images/fg.jpeg" width="100%" />
@@ -64,7 +125,7 @@
       Di wisata Kampoeng Etnik ini terdapat beragam wahana menarik yang wajib
       kalian coba keseruannya, yaitu
     </p>
-    <ol>
+    <ul>
       <li>
         Penginapan Bungalow Penginapan nuansa Jawa yang telah didesain menarik
         sehingga kini sekaligus tempat rekreasi keluarga Kebumen.
@@ -110,7 +171,7 @@
         Sky Bike Opsi lain wahana adrenaline tersedia di sini yaitu wahana sky
         bike bisa disebut juga sepeda gantung.
       </li>
-    </ol>
+    </ul>
     <p>
       Selain wahana-wahana diatas, pihak pengelola juga telah menyediakan
       berbagai macam fasilitas komplit antara lain, Warung penjual
