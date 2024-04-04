@@ -140,26 +140,24 @@
         <!-- End About -->
         <!-- Start Video -->
         <section id="mu-video">
-<<<<<<< HEAD
-         <div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-video-area">
-							<h2>Tour Kampoeng Etnik</h2>
-							<p class="mu-title-content">Jelajahi keindahan wisata yang 
-                                memukau dan kaya akan warisan budaya dalam tour virtual 
+            <<<<<<< HEAD <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mu-video-area">
+                            <h2>Tour Kampoeng Etnik</h2>
+                            <p class="mu-title-content">Jelajahi keindahan wisata yang
+                                memukau dan kaya akan warisan budaya dalam tour virtual
                                 kami. Mari kita mulai petualangan ini bersama sama.
-=======
-            <div class="container">
+                                <!-- <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="mu-video-area">
                             <h2>Tour Kampoeng Etnik</h2>
                             <p class="mu-title-content">Review dari SMK N 1 KEBUMEN
 >>>>>>> 2bc80f363d3e73b383456e00b28cc0618721f414
-                            </p>
+                            </p> -->
 
-                            <!-- Start Video content -->
+                                <!-- Start Video content -->
                             <div class="mu-video-content">
                                 <iframe width="560" height="315"
                                     src="https://www.youtube.com/embed/nzC_YJgugxg?si=YPjYQxAgCwo_p0Si"
@@ -172,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
         </section>
         <!-- End Video -->
 

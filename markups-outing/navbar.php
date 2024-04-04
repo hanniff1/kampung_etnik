@@ -34,10 +34,10 @@
                     <a href="">Contact </a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="" class="login">Login </a>
+                    <a href="login-register" class="login">Login </a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="" class="register">Registrasi</a>
+                    <a href="login-register/registration.php" class="register">Registrasi</a>
                 </li>
             </ul>
         </nav>
@@ -96,8 +96,8 @@
                     <div class="image-data">
                         <span class="text"></span>
                         <h2>
-                            Coffee Beans with a <br />
-                            Perfect Aroma
+                            Berbagai Macam Wahana <br />
+                            Yang Seru dan Menyenangkan
                         </h2>
                         <a href="#" class="button">About Us</a>
                     </div>
@@ -107,10 +107,10 @@
                     <div class="image-data">
                         <span class="text"></span>
                         <h2>
-                            Alluring and Fragrant <br />
-                            Coffee Aroma
+                            Bunga Low <br />
+                            Penginapan Yang Nyaman
                         </h2>
-                        <a href="#" class="button">About Us</a>
+                        <a href="mu-about" class="button">About Us</a>
                     </div>
                 </div>
             </div>
