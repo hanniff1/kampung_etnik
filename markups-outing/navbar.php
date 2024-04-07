@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <div class="logo">KAMPOENG ETNIK</div>
+        <div class="logo">Kampoeng Etnik</div>
         <input type="checkbox" id="nav_check" hidden />
         <nav>
             <ul>
