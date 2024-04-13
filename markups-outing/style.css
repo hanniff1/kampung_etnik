@@ -101,7 +101,7 @@ code {
 }
 
 pre {
-  background-color:   #f8f8f8;
+  background-color: #f8f8f8;
   border: 1px solid #eee;
   border-radius: 4px;
   padding: 10px;
@@ -158,8 +158,6 @@ button:focus {
   outline: none;
   border: none;
 }
-
-
 
 iframe {
   border: none;
@@ -591,6 +589,8 @@ iframe {
   position: relative;
   width: 100%;
   padding: 20px 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  border: 1px dashed grey;
 }
 
 .mu-featured-tours-single h3 {
