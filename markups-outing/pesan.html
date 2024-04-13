@@ -10,11 +10,15 @@
         padding: 0;
       }
 
+      body{
+        background: #fff;
+      }
+
       .wrapper {
         width: 500px;
         margin: auto;
         padding: 20px;
-        background: #fff;
+        background: #352e2e;
         margin-top: 20px;
       }
 
@@ -22,13 +26,14 @@
         color: black;
         padding: 10px;
         background: #35a9db;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         text-align: center;
+        border-radius: 5px;
       }
 
       table {
         width: 500px;
-        color: black;
+        color: #fff;
         border: 1px solid;
       }
 
@@ -71,10 +76,27 @@
         border: 1px solid black;
         margin: 10px 0;
       }
+      
+      input[type="submit"]{
+        width: 50%;
+        padding: 4px;
+        border-radius: 5px;
+        background: #35a9db;
+        border: 1px solid green;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 30px;
+      }
+
     </style>
   </head>
   <body>
-    <div class="container">
+    <div class="wrapper">
       <h3>Pengunjung</h3>
       <form>
         <table>
@@ -142,6 +164,11 @@
             <td>Jumlah Pengunjung</td>
             <td>
               <input type="text" name="" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input type="submit" name="" value="Simpan">
             </td>
           </tr>
         </table>
