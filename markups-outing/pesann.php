@@ -97,6 +97,37 @@
 </head>
 
 <body>
+<header>
+      <div class="logo">Kampoeng Etnik</div>
+      <input type="checkbox" id="nav_check" hidden />
+      <nav>
+        <ul>
+          <li style="list-style: none">
+            <a href="#" class="">Home</a>
+          </li>
+          <li style="list-style: none">
+            <a href="#mu-about">About</a>
+          </li>
+          <li style="list-style: none">
+            <a href="#mu-featured-tours">Spot</a>
+          </li>
+          <li style="list-style: none">
+            <a href="">Ticket</a>
+          </li>
+          <li style="list-style: none">
+            <a href="">Contact </a>
+          </li>
+          <li style="list-style: none">
+            <a href="login-register" class="login">Sign-in </a>
+          </li>
+        </ul>
+      </nav>
+      <label for="nav_check" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+    </header>
     <br>
     <h1>Pemesanan Wahana</h1>
     <table>
