@@ -13,7 +13,7 @@ if(isset($_SESSION["user"])){
     <title>Registration Form</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="register.css">
 </head>
 
 <body>
@@ -72,6 +72,9 @@ if(isset($_SESSION["user"])){
         }
         ?>
         <form action="registration.php" method="post">
+            <div class="text-registrasi">
+                <h2>Registrasi</h2>
+            </div>
             <div class="form-group">
                 <input type="text" class="form-control" name="fullname" placeholder="Full name:">
             </div>
