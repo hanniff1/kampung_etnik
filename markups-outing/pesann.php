@@ -26,6 +26,47 @@
         margin-top: 20px;
     }
 
+    header {
+  background: #4a98f7;
+  width: 100%;
+  height: 100px;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+    header .logo {
+      font-size: 35px;
+      font-weight: bold;
+      color: #fff;
+    }
+    header nav ul {
+      display: flex;
+    }
+    header nav ul li a {
+      display: inline-block;
+      color: #ffffff;
+      padding: 5px 0;
+      margin: 0 10px;
+      border: 3px solid transparent;
+      /* text-transform: uppercase; */
+      transition: 0.2s;
+    }
+    header nav ul li a:hover,
+    header nav ul li a.active {
+      border-bottom-color: dodgerblue;
+    }
+    .hamburger {
+      cursor: pointer;
+      display: none;
+    }
+    .hamburger div {
+      width: 30px;
+      height: 3px;
+      margin: 5px 0;
+      color: #fff;
+    }
+
     h3 {
         color: #ffffff;
         padding: 10px;
@@ -100,6 +141,37 @@
 </head>
 
 <body>
+<header>
+      <div class="logo">Kampoeng Etnik</div>
+      <input type="checkbox" id="nav_check" hidden />
+      <nav>
+        <ul>
+          <li style="list-style: none">
+            <a href="#" class="">Home</a>
+          </li>
+          <li style="list-style: none">
+            <a href="#mu-about">About</a>
+          </li>
+          <li style="list-style: none">
+            <a href="#mu-featured-tours">Spot</a>
+          </li>
+          <li style="list-style: none">
+            <a href="">Ticket</a>
+          </li>
+          <li style="list-style: none">
+            <a href="">Contact </a>
+          </li>
+          <li style="list-style: none">
+            <a href="login-register" class="login">Sign-in </a>
+          </li>
+        </ul>
+      </nav>
+      <label for="nav_check" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+    </header>
     <br>
     <h1>Pemesanan Wahana</h1>
     <table>
