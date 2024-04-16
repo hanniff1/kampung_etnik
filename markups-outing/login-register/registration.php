@@ -63,7 +63,7 @@ if(isset($_SESSION["user"])){
                 if ($prepareStmt){
                     mysqli_stmt_bind_param($stmt,"sss",$fullName, $email, $passwordHash);
                     mysqli_stmt_execute($stmt);
-                    echo "<div class='alert alert-success'>You are registered successfully</div>";
+                    echo "<div class='alert alert-success'>You are registered successfully </div>";
                 }else{
                     die("Something went wrong");
                 }

@@ -135,7 +135,28 @@ dl dt {
 dl dd {
   margin-left: 0;
 }
-
+/* service */
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+}
+.services .box-container {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: var(--main-color);
+}
+.services .box-container:hover {
+  background-color: var(--black);
+}
+.services .box-container .box img {
+  height: 8rem;
+}
+.services .box-container .box h3 {
+  color: var(--white);
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}
 blockquote {
   background-color: #f8f8f8;
   border-radius: 0 4px 4px 0;
@@ -158,8 +179,6 @@ button:focus {
   outline: none;
   border: none;
 }
-
-
 
 iframe {
   border: none;
