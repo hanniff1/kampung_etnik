@@ -8,40 +8,98 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,400;1,700&display=swap"
         rel="stylesheet" />
     <title>Pesan</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #fff;
+    }
+
+    .wrapper {
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+        background: #352e2e;
+        margin-top: 20px;
+    }
+
+    h3 {
+        color: black;
+        padding: 10px;
+        background: #35a9db;
+        margin-bottom: 0px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    table {
+        width: 500px;
+        color: #fff;
+        border: 1px solid;
+    }
+
+    input[type="text"] {
+        width: 325px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 10px 0;
+    }
+
+    input[type="telp"] {
+        width: 325px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 10px 0;
+    }
+
+    input[type="email"] {
+        width: 325px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 10px 0;
+    }
+
+    input[type="date"] {
+        width: 325px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 10px 0;
+    }
+
+    select {
+        width: 325px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 10px 0;
+    }
+
+    input[type="submit"] {
+        width: 30%;
+        padding: 4px;
+        border-radius: 5px;
+        background: #35a9db;
+        border: 1px solid green;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 30px;
+    }
+    </style>
 </head>
 
 <body>
-    <header>
-        <div class="logo">Kampoeng Etnik</div>
-        <input type="checkbox" id="nav_check" hidden />
-        <nav>
-            <ul>
-                <li style="list-style: none;">
-                    <a href="#" class="">Home</a>
-                </li>
-                <li style="list-style: none;">
-                    <a href="#mu-about">About</a>
-                </li>
-                <li style="list-style: none;">
-                    <a href="#mu-featured-tours">Spot</a>
-                </li>
-                <li style="list-style: none;">
-                    <a href="">Ticket</a>
-                </li>
-                <li style="list-style: none;">
-                    <a href="">Contact </a>
-                </li>
-                <li style="list-style: none;">
-                    <a href="login-register" class="login">Sign-in </a>
-                </li>
-            </ul>
-        </nav>
-        <label for="nav_check" class="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </label>
-    </header>
     <br>
     <h1>Pemesanan Wahana</h1>
     <table>
@@ -123,6 +181,86 @@
     <br>
     <br>
 
+    <div class="wrapper">
+        <h3>Pengunjung</h3>
+        <form>
+            <table>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>
+                        <input type="text" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>
+                        <textarea cols="" rows=""></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>No telp</td>
+                    <td>
+                        <input type="telp" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat Email</td>
+                    <td>
+                        <input type="email" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <select>
+                            <option></option>
+                            <option>Laki-laki</option>
+                            <option>Perempuan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ID Wahana</td>
+                    <td>
+                        <input type="text" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Paket Wahana</td>
+                    <td>
+                        <input type="text" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Harga Paket</td>
+                    <td>
+                        <input type="text" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Kunjungan</td>
+                    <td>
+                        <form action="#">
+                            <input type="date" id="tanggal_lahir" name="tanggal_lahir" />
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jumlah Pengunjung</td>
+                    <td>
+                        <input type="text" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="submit" name="" value="Simpan">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <br>
+    <br>
 
     <h1>Pemesanan Villa</h1>
     <table>
