@@ -230,7 +230,7 @@
             </td>
           </tr>
           <tr>
-            <td>Paket Wahana</td>
+            <td>Paket Wahanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
             <td>
               <input type="text" name="" />
             </td>
