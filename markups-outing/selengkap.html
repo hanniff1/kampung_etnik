@@ -11,61 +11,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <!--swiper css-->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/navbar.css" />
-
-    <link rel="stylesheet" href="css/navbar.css" />
-    <style>
-      body {
-        /* display: flex; */
-        background-color: rgb(249, 247, 248);
-        /* width: 70%;
-        padding: 20px; */
-      }
-      /* .container {
-        background-color: darkgray;
-        padding: 5rem;
-        margin-left: 35%;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      } */
-      h2 {
-        font-family: "Poppins", sans-serif;
-      }
-      p {
-        color: rgb(23, 22, 22);
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      img {
-        border-radius: 15px;
-        /* margin-right: 35%; */
-      }
-      ol li {
-        color: rgb(12, 94, 113);
-        font-family: Arial, Helvetica, sans-serif;
-      }
-    </style>
+    <link rel="stylesheet" href="css/selengkapnya.css" />
+    <style></style>
   </head>
   <body>
     <header>
-      <div class="logo">KAMPOENG ETNIK</div>
+      <div class="logo">Kampoeng Etnik</div>
       <input type="checkbox" id="nav_check" hidden />
       <nav>
         <ul>
           <li style="list-style: none">
-            <a href="" class="active">Home</a>
+            <a href="#" class="">Home</a>
           </li>
           <li style="list-style: none">
-            <a href="">About</a>
+            <a href="#mu-about">About</a>
           </li>
           <li style="list-style: none">
-            <a href="">Spot</a>
+            <a href="#mu-featured-tours">Spot</a>
           </li>
           <li style="list-style: none">
             <a href="">Ticket</a>
@@ -74,10 +42,7 @@
             <a href="">Contact </a>
           </li>
           <li style="list-style: none">
-            <a href="" class="login">Login </a>
-          </li>
-          <li style="list-style: none">
-            <a href="" class="login">Registrasi</a>
+            <a href="login-register" class="login">Sign-in </a>
           </li>
         </ul>
       </nav>
@@ -108,76 +73,150 @@
         },
       });
     </script>
-    <!-- <img src="assets/images/fg.jpeg" width="100%" /> -->
-    <!-- <div class="container"> -->
-    <img src="assets/images/fg.jpeg" width="100%" />
-    <h2>Sejarah Kampoeng Etnik</h2>
-    <p>
-      Kampoeng Etnik ini dibangun pada tahun 2018 yang terletak di Desa Legok
-      Kecamatan Pejagoan, Kabupaten Kebumen, Jawa Tengah. Kampoeng Etnik ini
-      bertema budaya.
-      <br />
-      Tujuannya untuk mengenalkan budaya di Jawa Tengah kepada pengunjung.
-    </p>
-    <h2>Fasilitas di Kampoeng Etnik</h2>
+    <main>
+      <div id="content">
+        <article id="sejarah" class="box">
+          <h2>Sejarah Kampoeng Etnik</h2>
+          <div style="display: flex; align-items: center; text-align: justify">
+            <img src="assets/images/logo kampoeng etnik.png" alt="" width="200px" />
+            <p style="padding: 15px">
+              Kampoeng Etnik ini dibangun pada tahun 2018 yang terletak di Desa Legok, Kecamatan Pejagoan, Kabupaten Kebumen, Jawa Tengah. Wisata ini termasuk wisata edukasi, yang terdapat banyak wahana air, permainan anak, dan juga
+              kuliner. Wisata Edukasi Kampoeng Etnik ini berkonsep Pedesaan yang asri dengan suasana Tradisional Jawa. Jadi, selain bisa menyegarkan pikiran dengan menikmati wahananya, kita juga bisa menambah pengetahuan.
+            </p>
+          </div>
+        </article>
+        <article id="fasilitas" class="box">
+          <h2>Fasilitas</h2>
+          <p>Di wisata Kampoeng Etnik ini terdapat beragam wahana menarik yang wajib kalian coba keseruannya</p>
+          <div class="slide-container swiper">
+            <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                      <img src="assets/images/F5.jpeg" alt="" class="card-img" />
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">Bunga Low</h2>
+                    <p class="description">Penginapan Bungalow Penginapan nuansa Jawa yang telah didesain menarik sehingga kini sekaligus tempat rekreasi keluarga Kebumen.</p>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                      <img src="assets/images/F2.jpeg" alt="" class="card-img" />
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">Kolam Renang</h2>
+                    <p class="description">Di sini pun telah tersedia kolam renang khusus dewasa dan anak-anak. Terdapat seluncuran dan tumpah air semakin menyenangkan.</p>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                      <img src="assets/images/lumbungiwak.jpg" alt="" class="card-img" />
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">Lumbung Iwak</h2>
+                    <p class="description">Wahana akuarium yang bisa wisatawan nikmati kecantikannya. Di sana terdapat banyak akuarium berisi ikan-ikan jenis tawar dan ikan laut.</p>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                      <img src="assets/images/flyfox.jpeg" alt="" class="card-img" />
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">Flying Fox</h2>
+                    <p class="description">Tak sekedar wahana mainstream saja, tapi juga ada nih wahana yang bisa menguji tingkat adrenaline yap apa lagi kalau bukan flying fox.</p>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                      <img src="assets/images/skybike.jpg" alt="" class="card-img" />
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">Sky Bike</h2>
+                    <p class="description">Wahana adrenaline tersedia di sini yaitu wahana sky bike bisa disebut juga sepeda gantung. Bagus dijadikan sebagai spot berswafoto.</p>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                      <img src="assets/images/terapi iwak.jpg" alt="" class="card-img" />
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">Terapi Iwak</h2>
+                    <p class="description">Duduk santai dengan kaki yang direndam ke air yang akan digerombol banyak ikan kecil yang bisa dijadikan sebagai terapi kesehatan.</p>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                      <img src="assets/images/Lesehan.jpg" alt="" class="card-img" />
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">Lesehan</h2>
+                    <p class="description">Untuk kalian yang ingin berteduh dengan di temani secangkir kopi dan makanan berat lainnya, tempatnya nyaman dan memiliki ciri khas jawanya.</p>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                      <img src="assets/images/fg.jpeg" alt="" class="card-img" />
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">Sewa Baju</h2>
+                    <p class="description">Tersedia tempat penyewaan baju adat. Sewa baju adat pun tergolong murah hanya Rp.5.000 sudah satu set plus blangkon bagi pria.</p>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                      <img src="assets/images/wayang.jpg" alt="" class="card-img" />
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">Rumah Wayang</h2>
+                    <p class="description">Di sini juga tersedia rumah wayang yang menyediakan berbagai koleksi wayang dan gamelan yang dapat kalian mainkan sepuasnya loh.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-    <p>
-      Di wisata Kampoeng Etnik ini terdapat beragam wahana menarik yang wajib
-      kalian coba keseruannya, yaitu
-    </p>
-    <ul>
-      <li>
-        Penginapan Bungalow Penginapan nuansa Jawa yang telah didesain menarik
-        sehingga kini sekaligus tempat rekreasi keluarga Kebumen.
-      </li>
-      <li>
-        Kolam Renang Di sini pun telah tersedia kolam renang khusus dewasa dan
-        anak-anak.
-      </li>
-      <li>
-        Kolam Pancing Bakal terasa menyenangkan nih liburan di lokasi wisata
-        dengan keseruan memancing ikan. Menariknya lagi wisatawan memancing ikan
-        itu sambil naik perahu loh, wah berasa banget natural.
-      </li>
-      <li>
-        Sewa Baju Adat Sewa baju adat pun tergolong murah kok sob, cuman Rp.
-        5.000 sudah satu set plus blangkon bagi pria.
-      </li>
-      <li>
-        Lumbung Lawak Wahana akuarium yang bisa wisatawan nikmati kecantikannya.
-        Di sana terdapat banyak akuarium berisi ikan-ikan jenis tawar dan ikan
-        laut.
-      </li>
-      <li>
-        Sepeda Air Terdapat kendaraan perahu berupa sepeda air. Bentuk sepeda
-        air nya beragam pokoknya imut-imut beragam warna, membuat anak-anak
-        menyukainya.
-      </li>
-      <li>
-        Naik Perahu Tak cuman kendaraan sepeda air saja, ada pula kendaraan
-        perahu sampan.
-      </li>
-      <li>
-        Rumah Burung Wisata kampoeng etnik semakin terasa lengkap dengan
-        kehadiran wahana peliharaan burung yang diberi nama omah manuk (rumah
-        burung).
-      </li>
-      <li>
-        Flying Fox Tak sekedar wahana mainstream saja, tapi juga ada nih wahana
-        yang bisa menguji tingkat adrenaline yap apa lagi kalau bukan flying
-        fox.
-      </li>
-      <li>
-        Sky Bike Opsi lain wahana adrenaline tersedia di sini yaitu wahana sky
-        bike bisa disebut juga sepeda gantung.
-      </li>
-    </ul>
-    <p>
-      Selain wahana-wahana diatas, pihak pengelola juga telah menyediakan
-      berbagai macam fasilitas komplit antara lain, Warung penjual
-      makanan-minuman, Kamar mandi umum, Gazebo, Alunan musik Jawa, Tempat
-      parkir luas, spot foto, Masjid, Gedung Serba Guna Dan lain-lain.
-    </p>
-    <!-- </div> -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+          </div>
+          <p>
+            Selain wahana-wahana diatas, pihak pengelola juga telah menyediakan berbagai macam fasilitas komplit antara lain, Warung penjual makanan-minuman, Kamar mandi umum, Gazebo, Alunan musik Jawa, Tempat parkir luas, spot foto,
+            Masjid, Gedung Serba Guna Dan lain-lain.
+          </p>
+        </article>
+      </div>
+    </main>
   </body>
+  <!-- swiper js -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
 </html>

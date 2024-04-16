@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <div class="logo">KAMPOENG ETNIK</div>
+        <div class="logo">Kampoeng Etnik</div>
         <input type="checkbox" id="nav_check" hidden />
         <nav>
             <ul>
@@ -34,10 +34,7 @@
                     <a href="">Contact </a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="login-register" class="login">Login </a>
-                </li>
-                <li style="list-style: none;">
-                    <a href="login-register/registration.php" class="register">Registrasi</a>
+                    <a href="login-register" class="login">Sign-in </a>
                 </li>
             </ul>
         </nav>
@@ -47,9 +44,6 @@
             <div></div>
         </label>
     </header>
-    <!-- IMAGE SLIDE -->
-    <!-- Link Swiper's CSS -->
-
     <!-- Swiper JS -->
     <script src="css/swiper-bundle.min.js"></script>
 
@@ -220,6 +214,7 @@
     </body>
 
 </html>
+
 </body>
 
 </html>
