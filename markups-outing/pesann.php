@@ -26,6 +26,47 @@
         margin-top: 20px;
     }
 
+    header {
+  background: #4a98f7;
+  width: 100%;
+  height: 100px;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+    header .logo {
+      font-size: 35px;
+      font-weight: bold;
+      color: #fff;
+    }
+    header nav ul {
+      display: flex;
+    }
+    header nav ul li a {
+      display: inline-block;
+      color: #ffffff;
+      padding: 5px 0;
+      margin: 0 10px;
+      border: 3px solid transparent;
+      /* text-transform: uppercase; */
+      transition: 0.2s;
+    }
+    header nav ul li a:hover,
+    header nav ul li a.active {
+      border-bottom-color: dodgerblue;
+    }
+    .hamburger {
+      cursor: pointer;
+      display: none;
+    }
+    .hamburger div {
+      width: 30px;
+      height: 3px;
+      margin: 5px 0;
+      color: #fff;
+    }
+
     h3 {
         color: black;
         padding: 10px;
