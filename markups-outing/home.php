@@ -13,7 +13,8 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico" />
     <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
         integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" />
@@ -27,7 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,400;1,700&display=swap"
         rel="stylesheet" />
     <!-- Main Style -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <!-- Fonts -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
@@ -42,57 +43,6 @@
     </a>
     <!-- END SCROLL TOP BUTTON -->
 
-    <!-- Start Header -->
-    <!-- <header id="mu-hero">
-		<div class="container">
-			<div class="mu-hero-area">
-				
-				<div class="mu-hero-top"> -->
-    <!-- Start center Logo -->
-    <!-- <div class="mu-logo-area"> -->
-    <!-- text based logo -->
-    <!-- <a class="mu-logo" href="index.html"><span>Outing</span></a> -->
-    <!-- Image based logo -->
-    <!-- <a class="mu-logo" href="index.html"><img src="assets/images/logo.jpg" alt="logo img"></a> -->
-    <!-- </div> -->
-    <!-- End center Logo -->
-    <!-- <div class="mu-hero-top-info">
-						<ul>
-							<li>
-								<i class="fa fa-envelope" aria-hidden="true"></i>
-								<span>mail@domain.com</span>
-							</li>
-							<li>
-								<div class="mu-telephone">
-									<i class="fa fa-phone" aria-hidden="true"></i>
-									<span>+1234 784739</span>
-								</div>
-							</li>
-						</ul>
-						
-					</div>
-				</div> -->
-
-    <!-- Start hero featured area -->
-    <!-- <div class="mu-hero-featured-area">
-					<div class="mu-hero-featured-content">
-						<h2>Welcome To The Travel Agency </h2>
-						<h1>WE PROVIDE ONLY THE BEST TOURS</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ut omnis beatae quam quibusdam facere expedita explicabo eaque non sit. Amet vitae exercitationem ad rerum consequuntur numquam magni nemo dolorem, itaque eius perferendis praesentium consequatur. Dolores, nihil, molestiae sunt tenetur aut similique nostrum deleniti amet minima. Esse magnam inventore, ea.</p>
-
-						<a href="#" class="mu-book-now-btn">Book Now!</a>
-						
-						<div class="mu-scrolldown-area">
-							<a href="#mu-about" class="mu-scrolldown" id="mu-scrolldown"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div> -->
-    <!-- End hero featured area -->
-    <!-- 
-			</div>
-		</div>
-	</header> -->
-    <!-- End Header -->
 
     <!-- Start main content -->
     <main>
@@ -111,7 +61,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="mu-about-right">
-                                        <h2>Kampoeng Etnik Kebumen</h2>
+                                        <h2>Kampoeng Etnik Kebumen </h2>
                                         <p>
                                             Kampoeng Etnik menjadi destinasi baru di Kabumen Jawa
                                             Tengah dengan konsep wisata keluarga yang ramah anak.
@@ -140,7 +90,7 @@
         <!-- End About -->
         <!-- Start Video -->
         <section id="mu-video">
-            <<<<<<< HEAD <div class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="mu-video-area">
@@ -170,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
         </section>
         <!-- End Video -->
 

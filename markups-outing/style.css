@@ -581,6 +581,7 @@ iframe {
   float: left;
   width: 100%;
   margin: 15px 0;
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
 }
 
 .mu-featured-tours-single-info {
@@ -589,8 +590,6 @@ iframe {
   position: relative;
   width: 100%;
   padding: 20px 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-  border: 1px dashed grey;
 }
 
 .mu-featured-tours-single h3 {
