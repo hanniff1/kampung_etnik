@@ -19,15 +19,15 @@
     }
 
     .wrapper {
-        width: 500px;
+        width: 517px;
         margin: auto;
         padding: 20px;
-        background: #352e2e;
+        background: #ffffff;
         margin-top: 20px;
     }
 
     h3 {
-        color: black;
+        color: #ffffff;
         padding: 10px;
         background: #35a9db;
         margin-bottom: 0px;
