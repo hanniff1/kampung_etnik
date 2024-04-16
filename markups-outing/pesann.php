@@ -13,13 +13,10 @@
         margin: 0;
         padding: 0;
     }
-
-    body {
-        background: #fff;
-    }
+    
 
     .wrapper {
-        width: 500px;
+        width: 400px;
         margin: auto;
         padding: 20px;
         background: #352e2e;
@@ -36,13 +33,13 @@
     }
 
     table {
-        width: 500px;
+        width: 400px;
         color: #fff;
         border: 1px solid;
     }
 
     input[type="text"] {
-        width: 325px;
+        width: 225px;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid black;
@@ -50,7 +47,7 @@
     }
 
     input[type="telp"] {
-        width: 325px;
+        width: 225px;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid black;
@@ -58,7 +55,7 @@
     }
 
     input[type="email"] {
-        width: 325px;
+        width: 225px;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid black;
@@ -66,7 +63,7 @@
     }
 
     input[type="date"] {
-        width: 325px;
+        width: 225px;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid black;
@@ -74,7 +71,7 @@
     }
 
     select {
-        width: 325px;
+        width: 225px;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid black;
