@@ -18,125 +18,7 @@
         background: #fff;
     }
 
-    .wrapper {
-        width: 517px;
-        margin: auto;
-        padding: 20px;
-        background: #ffffff;
-        margin-top: 20px;
-    }
-
-    header {
-  background: #4a98f7;
-  width: 100%;
-  height: 100px;
-  display: flex !important;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 50px;
-}
-    header .logo {
-      font-size: 35px;
-      font-weight: bold;
-      color: #fff;
-    }
-    header nav ul {
-      display: flex;
-    }
-    header nav ul li a {
-      display: inline-block;
-      color: #ffffff;
-      padding: 5px 0;
-      margin: 0 10px;
-      border: 3px solid transparent;
-      /* text-transform: uppercase; */
-      transition: 0.2s;
-    }
-    header nav ul li a:hover,
-    header nav ul li a.active {
-      border-bottom-color: dodgerblue;
-    }
-    .hamburger {
-      cursor: pointer;
-      display: none;
-    }
-    .hamburger div {
-      width: 30px;
-      height: 3px;
-      margin: 5px 0;
-      color: #fff;
-    }
-
-    h3 {
-        color: #ffffff;
-        padding: 10px;
-        background: #35a9db;
-        margin-bottom: 0px;
-        text-align: center;
-        border-radius: 5px;
-    }
-
-    table {
-        width: 500px;
-        color: #fff;
-        border: 1px solid;
-    }
-
-    input[type="text"] {
-        width: 325px;
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid black;
-        margin: 10px 0;
-    }
-
-    input[type="telp"] {
-        width: 325px;
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid black;
-        margin: 10px 0;
-    }
-
-    input[type="email"] {
-        width: 325px;
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid black;
-        margin: 10px 0;
-    }
-
-    input[type="date"] {
-        width: 325px;
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid black;
-        margin: 10px 0;
-    }
-
-    select {
-        width: 325px;
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid black;
-        margin: 10px 0;
-    }
-
-    input[type="submit"] {
-        width: 30%;
-        padding: 4px;
-        border-radius: 5px;
-        background: #35a9db;
-        border: 1px solid green;
-        font-size: 20px;
-        font-weight: bold;
-        margin: 10px 0;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        margin-top: 30px;
-    }
+    
     </style>
 </head>
 
@@ -266,7 +148,7 @@
                 <tr>
                     <td>Alamat</td>
                     <td>
-                        <textarea cols="" rows=""></textarea>
+                        <textarea cols="" rows="" name=""></textarea>
                     </td>
                 </tr>
                 <tr>
