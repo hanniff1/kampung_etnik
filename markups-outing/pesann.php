@@ -207,7 +207,7 @@
                 </tr>
                 <tr>
                     <td colspan="3">
-                        <input type="submit" name="" value="Simpan">
+                        <input type="submit" name="" value="Selanjutnya">
                     </td>
                 </tr>
             </table>
@@ -303,6 +303,24 @@
             </tr>
         </tbody><br>
         <br>
+    </table>
+
+    <div class="wrapper">
+        <h3>Pengunjung</h3>
+        <form>
+            <table>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+</div>
 
 </body>
 
