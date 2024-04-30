@@ -130,7 +130,6 @@
         <tfoot>
             <tr>
                 <th colspan="5"></th>
-            </tr>
         </tfoot>
     </table>
     <br>
