@@ -92,7 +92,7 @@ table tfoot th {
 }
 
 .wrapper {
-  width: 600px;
+  width: 540px;
   margin: auto;
   padding: 20px;
   background: #ffffff;
@@ -154,7 +154,8 @@ select {
   margin: 10px 0;
 }
 
-input[type="submit"] {
+/* input[type="submit"] { */
+.btn-selengkapnya {
   width: 30%;
   padding: 4px;
   border-radius: 5px;

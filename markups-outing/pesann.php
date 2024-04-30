@@ -56,6 +56,7 @@
     </header>
     <br>
     <h1>Pemesanan Wahana</h1>
+    <br>
     <table>
         <thead>
             <tr>
@@ -217,17 +218,17 @@
                         <input type="text" name="" />
                     </td>
                 </tr>
-                <tr>
-                    <td colspan="3">
+                
+               
+                    <!-- <td colspan="3">
                         <input type="submit" name="" value="Selanjutnya">
-                    </td>
-                </tr>
-            </table>
+                    </td> -->
+                </table>
         </form>
+        <button class= "btn-selengkapnya" type="submit">Selanjutnya</button>
+
     </div>
     <br>
-    <br>
-
     <h1>Pemesanan Villa</h1>
     <table>
         <thead>
@@ -318,7 +319,7 @@
     </table>
     </br>
     <div class="wrapper">
-        <h3>Pengunjung</h3>
+        <!-- <h3>Pengunjung</h3> -->
         <form>
             <table>
                 <tr>
@@ -400,13 +401,9 @@
                         <input type="text" name="" />
                     </td>
                 </tr>
-                <tr>
-                    <td colspan="3">
-                        <input type="submit" name="" value="Selanjutnya">
-                    </td>
-                </tr>
             </table>
         </form>
+        <button class= "btn-selengkapnya" type="submit">Selanjutnya</button>
     </div>
 </div>
 
