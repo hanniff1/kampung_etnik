@@ -243,7 +243,7 @@
     <!-- End main content -->
 
     <!-- Start footer -->
-    <footer id="mu-footer">
+    <!-- <footer id="mu-footer">
         <div class="container">
             <div class="mu-footer-area">
                 <div class="row">
@@ -268,6 +268,38 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </footer> -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>contact us</h3>
+                <p>email:</p>
+                <p>phone:</p>
+                <p>address:</p>
+
+            </div>
+            <div class="footer-container">
+                <h3>Quick links</h3>
+                <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Spot</a></li>
+                    <li><a href="">Ticket</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <h3>Follow us</h3>
+                <ul class="social-icons">
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bootom-bar">
+            <p>&copy; WONGuNIK</p>
         </div>
     </footer>
     <!-- End footer -->
