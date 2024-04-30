@@ -174,21 +174,34 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>ID Wahana</td>
-                    <td>
-                        <input type="text" name="" />
-                    </td>
-                </tr>
-                <tr>
                     <td>Paket Wahana</td>
                     <td>
-                        <input type="text" name="" />
+                    <select>
+                            <option></option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                        </select>
                     </td>
                 </tr>
                 <tr>
-                    <td>Harga Paket</td>
+                    <td>ID Villa</td>
                     <td>
-                        <input type="text" name="" />
+                    <select>
+                            <option></option>
+                            <option>1A</option>
+                            <option>2B</option>
+                            <option>3C</option>
+                            <option>4D</option>
+                            <option>5E</option>
+                            <option>6F</option>
+                            <option>7G</option>
+                        </select>
                     </td>
                 </tr>
                 <tr>
@@ -310,16 +323,92 @@
         <form>
             <table>
                 <tr>
-                    <td></td>
+                    <td>Nama Lengkap</td>
+                    <td>
+                        <input type="text" name="" />
+                    </td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td>Alamat</td>
+                    <td>
+                        <textarea cols="" rows="" name=""></textarea>
+                    </td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td>No telp</td>
+                    <td>
+                        <input type="telp" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat Email</td>
+                    <td>
+                        <input type="email" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <select>
+                            <option></option>
+                            <option>Laki-laki</option>
+                            <option>Perempuan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Paket Wahana</td>
+                    <td>
+                    <select>
+                            <option></option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ID Villa</td>
+                    <td>
+                    <select>
+                            <option></option>
+                            <option>1A</option>
+                            <option>2B</option>
+                            <option>3C</option>
+                            <option>4D</option>
+                            <option>5E</option>
+                            <option>6F</option>
+                            <option>7G</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Kunjungan</td>
+                    <td>
+                        <form action="#">
+                            <input type="date" id="tanggal_lahir" name="tanggal_lahir" />
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jumlah Pengunjung</td>
+                    <td>
+                        <input type="text" name="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="submit" name="" value="Selanjutnya">
+                    </td>
                 </tr>
             </table>
         </form>
+    </div>
 </div>
 
 </body>
