@@ -243,8 +243,8 @@
     <!-- End main content -->
 
     <!-- Start footer -->
-    <!-- <footer id="mu-footer">
-        <div class="container">
+    <footer id="mu-footer">
+         <div class="container">
             <div class="mu-footer-area">
                 <div class="row">
                     <div class="col-md-6">

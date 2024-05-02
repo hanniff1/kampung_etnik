@@ -28,10 +28,10 @@
                     <a href="#mu-featured-tours">Spot</a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="">Ticket</a>
+                    <a href="pesann.php">Ticket</a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="">Contact </a>
+                    <a href="#mu-footer">Contact </a>
                 </li>
                 <li style="list-style: none;">
                     <a href="login-register" class="login">Sign-in </a>
