@@ -181,7 +181,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="mu-featured-tours-single">
-                                            <img src="assets/images/f9.jpeg" alt="img" />
+                                            <img src="assets/images/flyfox.jpeg" alt="img" />
                                             <div class="mu-featured-tours-single-info">
                                                 <h3>Flying Fox</h3>
                                                 <h4>Bebas</h4>

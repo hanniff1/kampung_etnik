@@ -29,19 +29,19 @@
       <nav>
         <ul>
           <li style="list-style: none">
-            <a href="#" class="">Home</a>
+            <a href="../markups-outing/home.php" class="">Home</a>
           </li>
           <li style="list-style: none">
-            <a href="#mu-about">About</a>
+            <a href="../markups-outing/selengkap.html">About</a>
           </li>
           <li style="list-style: none">
-            <a href="#mu-featured-tours">Spot</a>
+            <a href="../markups-outing/home.php">Spot</a>
           </li>
           <li style="list-style: none">
-            <a href="">Ticket</a>
+            <a href="#">Ticket</a>
           </li>
           <li style="list-style: none">
-            <a href="">Contact </a>
+            <a href="../markups-outing/home.php">Contact </a>
           </li>
           <li style="list-style: none">
             <a href="login-register" class="login">Sign-in </a>

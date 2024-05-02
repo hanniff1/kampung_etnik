@@ -22,7 +22,7 @@
                     <a href="#" class="">Home</a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="#mu-about">About</a>
+                    <a href="selengkap.html">About</a>
                 </li>
                 <li style="list-style: none;">
                     <a href="#mu-featured-tours">Spot</a>
