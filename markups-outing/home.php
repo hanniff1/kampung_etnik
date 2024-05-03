@@ -1,5 +1,5 @@
 <?php
-  include("./navbar.php")
+  include("./navbar.php");
 ?>
 
 <!DOCTYPE html>
@@ -243,7 +243,10 @@
     <!-- End main content -->
 
     <!-- Start footer -->
-    <footer id="mu-footer">
+  <?php
+        include("./footer.php");
+    ?>  
+    <!-- <footer id="mu-footer">
          <div class="container">
             <div class="mu-footer-area">
                 <div class="row">
@@ -253,8 +256,8 @@
                                 &copy; KelompokEtnik <span>WONGuNIK</span> . All right
                                 reserved.
                             </p>
-                        </div>
-                    </div>
+                        </div> -->
+                    <!-- </div>
                     <div class="col-md-6">
                         <div class="mu-footer-right">
                             <div class="mu-social-media">
@@ -268,9 +271,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </footer> -->
-   
+        </div> -->
+    <!-- </footer>
+    -->
     <!-- End footer -->
 
     <!-- JavaScript -->
