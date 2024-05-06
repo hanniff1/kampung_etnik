@@ -189,7 +189,7 @@
                         </select>
                     </td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td>ID Villa</td>
                     <td>
                     <select>
@@ -203,7 +203,7 @@
                             <option>7G</option>
                         </select>
                     </td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td>Tanggal Kunjungan</td>
                     <td>
@@ -356,7 +356,7 @@
                         </select>
                     </td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td>Paket Wahana</td>
                     <td>
                     <select>
@@ -371,7 +371,7 @@
                             <option>8</option>
                         </select>
                     </td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td>ID Villa</td>
                     <td>
@@ -396,7 +396,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Jumlah Pengunjung</td>
+                    <td>Jumlah Pesanan</td>
                     <td>
                         <input type="text" name="" />
                     </td>
