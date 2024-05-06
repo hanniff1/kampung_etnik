@@ -62,7 +62,9 @@ h6 {
   font-weight: 700;
   margin-top: 0;
 }
-
+p {
+  color: black;
+}
 h1 {
   font-size: 38px;
 }

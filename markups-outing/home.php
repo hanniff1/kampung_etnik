@@ -28,12 +28,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,400;1,700&display=swap"
         rel="stylesheet" />
     <!-- Main Style -->
-    <link href="style.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
     <!-- Fonts -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <!-- Poppins For Title -->
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+
+
+    <style>
+        h2{
+            color: black;
+        }
+        p{
+            color: black;
+        }
+        footer {
+      color: white;}
+    </style>
 </head>
 
 <body>

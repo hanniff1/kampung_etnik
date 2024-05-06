@@ -16,11 +16,13 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: 16px;
       color: white;
-    }
+    } 
     footer {
+      color: white;
       background: #343434;
       padding-top: 50px;
     }
+    
     .container {
       width: 1140px;
       margin: auto;
@@ -84,6 +86,15 @@
     a {
       text-decoration: none;
     }
+    h3{
+      color: black;
+    }
+    h4{
+      color: black;
+    }
+    a{
+      color: white;
+    }
     a:hover {
       color: #3084f1;
     }
@@ -97,7 +108,7 @@
       margin-top: 50px;
     }
     .bottom-bar p {
-      color: #343434;
+      /* color: #343434; */
       margin: 0;
       font-size: 16px;
       padding: 7px;
