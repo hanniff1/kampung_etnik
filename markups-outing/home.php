@@ -239,9 +239,7 @@
             </div>
         </section>
         <!-- End Featured Tours -->
-
         <!-- Start Google Map -->
-
         <div id="mu-google-map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.086556851625!2d109.6504940740477!3d-7.673843675956313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7acbfa5d75d2c3%3A0x3bd581a08824dda0!2sKampoeng%20ETNIK%20Kebumen!5e0!3m2!1sid!2sid!4v1709707208124!5m2!1sid!2sid"
@@ -255,6 +253,7 @@
     <!-- End main content -->
 
     <!-- Start footer -->
+      
   <?php
         include("./footer.php");
     ?>  

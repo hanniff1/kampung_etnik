@@ -19,7 +19,7 @@
     } 
     footer {
       color: white;
-      background: #343434;
+      background: #309af;
       padding-top: 50px;
     }
     
@@ -45,8 +45,12 @@
     .footer-content ul {
       text-align: center;
     }
+    
     .list {
       padding: 0;
+    }
+    .list a {
+      color: black !important;
     }
     .list li {
       width: auto;
@@ -80,7 +84,7 @@
       border: 1px solid rgb(0, 115, 255);
     }
     .social-icons i {
-      color: white;
+      color: black;
       font-size: 25px;
     }
     a {
@@ -93,7 +97,7 @@
       color: black;
     }
     a{
-      color: white;
+      color: black;
     }
     a:hover {
       color: #3084f1;
@@ -119,36 +123,33 @@
       <div class="container">
         <div class="footer-content">
           <h3>Contact Us</h3>
-          <p>Email:WonkkUnik@gmail.com</p>
+          <p>Email: <a href="">etnikkampoeng@gmail.com</a></p>
           <br />
-          <p>Phone:088218897635</p>
+          <p>Phone: <a href="https://wa.me/6281572234000">081572234000</a></p>
           <br />
-          <p>Email:Address:Your address 123 street</p>
+          <p>Address: Legok Lor, Kec. Pejagoan, Kab. Kebumen, Jawa Tengah.</p>
         </div>
         <div class="footer-content">
           <h3>Quic Links</h3>
           <ul class="list">
-            <li><a href="">Home</a></li>
-            <li><a href="">Aboute</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Produck</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="selengkap.html">Aboute</a></li>
+            <li><a href="home.php">Spot</a></li>
+            <li><a href="pesann.php">Ticket</a></li>
+            <li><a href="https://wa.me/6281572234000">Contact</a></li>
           </ul>
         </div>
         <div class="footer-content">
           <h3>Follow Us</h3>
           <ul class="social-icons">
             <li>
-              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href="https://www.facebook.com/kampoengetnik.kebumen?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
-              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href="https://www.tiktok.com/@kampoeng.etnik.ke?_t=8mAV3EF7BmC&_r=1"><i class="fab fa-tiktok"></i></a>
             </li>
             <li>
-              <a href=""><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/kampoeng_etnik_kebumen?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
             </li>
           </ul>
         </div>
