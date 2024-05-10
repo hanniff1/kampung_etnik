@@ -21,8 +21,9 @@
       color: white;
       background: #309af;
       padding-top: 50px;
+      background-image: linear-gradient(to right, #4682B4, #00FFFF, #00FA9A);
     }
-    
+
     .container {
       width: 1140px;
       margin: auto;
