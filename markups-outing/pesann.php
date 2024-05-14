@@ -33,16 +33,16 @@
             <a href="../markups-outing/home.php" class="">Home</a>
           </li>
           <li style="list-style: none">
-            <a href="../markups-outing/selengkap.html">About</a>
+            <a href="#mu-about">About</a>
           </li>
           <li style="list-style: none">
-            <a href="../markups-outing/home.php">Spot</a>
+            <a href="#mu-featured-tours">Spot</a>
           </li>
           <li style="list-style: none">
             <a href="#">Ticket</a>
           </li>
           <li style="list-style: none">
-            <a href="../markups-outing/home.php">Contact </a>
+            <a href="">Contact </a>
           </li>
           <!-- <li style="list-style: none">
             <a href="login-register" class="login">Sign-in </a>

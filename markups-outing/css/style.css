@@ -1087,7 +1087,7 @@ iframe {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .mu-logo-area {
     width: 100%;
     text-align: center;
@@ -1128,7 +1128,7 @@ iframe {
 
   .mu-about-right {
     margin-top: 30px;
-    width: 100%;
+    width: 20px;
     padding: 0;
     margin-left: 0;
     box-shadow: none;

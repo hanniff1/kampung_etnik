@@ -22,7 +22,7 @@
                     <a href="#" class="">Home</a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="selengkap.html">About</a>
+                    <a href="#mu-about">About</a>
                 </li>
                 <li style="list-style: none;">
                     <a href="#mu-featured-tours">Spot</a>
@@ -31,7 +31,7 @@
                     <a href="pesann.php">Ticket</a>
                 </li>
                 <li style="list-style: none;">
-                    <a href="#mu-footer">Contact </a>
+                    <a href="#">Contact </a>
                 </li>
                 <li style="list-style: none;">
                     <a href="login-register" class="login">Sign-in </a>
@@ -82,7 +82,7 @@
                             Selamat Datang <br />
                             di Website Kampoeng Etnik
                         </h2>
-                        <a href="#" class="button">About Us</a>
+                        <a href="selengkap.html" class="button">About Us</a>
                     </div>
                 </div>
                 <div class="slide swiper-slide">
@@ -93,7 +93,7 @@
                             Berbagai Macam Wahana <br />
                             Yang Seru dan Menyenangkan
                         </h2>
-                        <a href="#" class="button">About Us</a>
+                        <a href="#mu-featured-tours" class="button">Spot<a>
                     </div>
                 </div>
                 <div class="slide swiper-slide">
@@ -104,7 +104,7 @@
                             Bunga Low <br />
                             Penginapan Yang Nyaman
                         </h2>
-                        <a href="mu-about" class="button">About Us</a>
+                        <a href="pesann.php" class="button">Ticket</a>
                     </div>
                 </div>
             </div>

@@ -19,6 +19,7 @@
       
     } 
     footer {
+      margin: top 45px;
       color: white;
       background: #309af;
       padding-top: 50px;
@@ -121,11 +122,11 @@
     }
   </style>
   <body>
-    <footer>
+    <footer id="container-footer">
       <div class="container">
         <div class="footer-content">
           <h3>Contact Us</h3>
-          <p>Email: <a href="">etnikkampoeng@gmail.com</a></p>
+          <p>Email: <a href="mailto:etnikkampoeng@gmail.com">etnikkampoeng@gmail.com</a></p>
           <br />
           <p>Phone: <a href="https://wa.me/6281572234000">081572234000</a></p>
           <br />
@@ -135,10 +136,10 @@
           <h3>Quic Links</h3>
           <ul class="list">
             <li><a href="home.php">Home</a></li>
-            <li><a href="selengkap.html">Aboute</a></li>
-            <li><a href="home.php">Spot</a></li>
+            <li><a href="mu-about">About</a></li>
+            <li><a href="#mu-featured-tours">Spot</a></li>
             <li><a href="pesann.php">Ticket</a></li>
-            <li><a href="https://wa.me/6281572234000">Contact</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
         <div class="footer-content">
