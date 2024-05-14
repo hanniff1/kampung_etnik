@@ -16,6 +16,7 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: 16px;
       color: white;
+      
     } 
     footer {
       color: white;

@@ -20,6 +20,7 @@
 
     
     </style>
+    
 </head>
 
 <body>
@@ -43,12 +44,12 @@
           <li style="list-style: none">
             <a href="../markups-outing/home.php">Contact </a>
           </li>
-          <li style="list-style: none">
+          <!-- <li style="list-style: none">
             <a href="login-register" class="login">Sign-in </a>
-          </li>
+          </li> -->
         </ul>
       </nav>
-      <label for="nav_check" class="hamburger">
+        <label for="nav_check" class="hamburger">
         <div></div>
         <div></div>
         <div></div>
@@ -67,7 +68,7 @@
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
+                <td>KD01</td>
                 <td>
                     Kolam renang dan prosotan <br />
                     Mandi busa (Rombongan) <br />
@@ -92,37 +93,37 @@
                 </td>
             </tr>
             <tr>
-                <td>2</td>
+                <td>KD02</td>
                 <td>Main sepeda bebek air</td>
                 <td>10.000</td>
             </tr>
             <tr>
-                <td>3</td>
+                <td>KD03</td>
                 <td>Outbond flying fox</td>
                 <td>10.000</td>
             </tr>
             <tr>
-                <td>4</td>
+                <td>KD04</td>
                 <td>Outbond sepeda gantung</td>
                 <td>10.000</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td>KD05</td>
                 <td>Trampolin</td>
                 <td>5.000</td>
             </tr>
             <tr>
-                <td>6</td>
+                <td>KD06</td>
                 <td>Sewa ban renang sepuasnya</td>
                 <td>10.000</td>
             </tr>
             <tr>
-                <td>7</td>
+                <td>KD07</td>
                 <td>Sewa baju jawa</td>
                 <td>15.000</td>
             </tr>
             <tr>
-                <td>8</td>
+                <td>KD08</td>
                 <td>Kids zona sepuasnya</td>
                 <td>20.000</td>
             </tr>
@@ -174,19 +175,21 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Paket Wahana</td>
+                    
+                    <td><label for="paketWahana">Pilih Paket Wahana:</label></td>
                     <td>
-                    <select>
-                            <option></option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
+                    <select id="paketWahana" onchange="updateHarga()">
+                            <option value="">--Pilih Paket--</option>
+                            <option value="Paket1">1</option>
+                            <option value="Paket2">2</option>
+                            <option value="Paket3">3</option>
+                            <option value="Paket4">4</option>
+                            <option value="Paket5">5</option>
+                            <option value="Paket6">6</option>
+                            <option value="Paket7">7</option>
+                            <option value="Paket8">8</option>
                         </select>
+                        <p>Harga: <span id="harga">Pilih paket wahana</span></p>
                     </td>
                 </tr>
                 <!-- <tr>
@@ -394,7 +397,6 @@
                             <input type="date" id="tanggal_lahir" name="tanggal_lahir" />
                         </form>
                     </td>
-                </tr>
                 <tr>
                     <td>Jumlah Pesanan</td>
                     <td>
@@ -406,7 +408,29 @@
         <button class= "btn-selengkapnya" type="submit">Selanjutnya</button>
     </div>
 </div>
+<script>
+      function updateHarga() {
+        var paketWahana = document.getElementById("paketWahana");
+        var harga = document.getElementById("harga");
+        var selectedOption = paketWahana.options[paketWahana.selectedIndex].value;
 
+        // Harga untuk setiap paket wahana
+        var hargaPaket = {
+          Paket1: "Rp 20.000",
+          Paket2: "Rp 10.000",
+          Paket3: "Rp 10.000",
+          Paket4: "Rp 10.000",
+          Paket5: "Rp 5.000",
+          Paket6: "Rp 10.000",
+          Paket7: "Rp 15.000",
+          Paket8: "Rp 20.000",
+        };
+
+        // Perbarui elemen harga
+        harga.textContent = hargaPaket[selectedOption] || "Pilih paket wahana";
+      }
+    </script>
 </body>
+
 
 </html>
