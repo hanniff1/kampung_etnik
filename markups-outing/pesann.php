@@ -189,8 +189,11 @@
                             <option value="Paket7">7</option>
                             <option value="Paket8">8</option>
                         </select>
-                        <p>Harga: <span id="harga">Pilih paket wahana</span></p>
                     </td>
+                </tr>
+                <tr>
+                    <td>Harga:</td>
+                    <td> <span id="harga">Pilih paket wahana</span></td>
                 </tr>
                 <!-- <tr>
                     <td>ID Villa</td>
