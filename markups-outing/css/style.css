@@ -1022,23 +1022,6 @@ iframe {
 /* RESPONSIVE STYLE */
 /*--------------------*/
 
-@media (max-width: 1199px) {
-  .mu-about-right {
-    margin-top: 20px;
-    width: 140%;
-    padding: 25px;
-    margin-left: -190px;
-  }
-
-  .mu-clients-slider .slick-prev {
-    left: -40px;
-  }
-
-  #mu-google-map iframe {
-    height: 450px;
-  }
-}
-
 @media (max-width: 991px) {
   .mu-primary-btn {
     font-size: 14px;
