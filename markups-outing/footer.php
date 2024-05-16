@@ -19,7 +19,7 @@
       
     } 
     footer {
-      margin: top 45px;
+      margin: top 30px;
       color: white;
       background: #309af;
       padding-top: 50px;
@@ -31,6 +31,7 @@
       margin: auto;
       display: flex;
       justify-content: center;
+padding-top: 50px;
     }
     .footer-content {
       width: 33.3%;
@@ -120,6 +121,7 @@
       font-size: 16px;
       padding: 7px;
     }
+   
   </style>
   <body>
     <footer id="container-footer">
