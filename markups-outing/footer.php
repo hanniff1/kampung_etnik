@@ -137,8 +137,8 @@ padding-top: 50px;
         <div class="footer-content">
           <h3>Quic Links</h3>
           <ul class="list">
-            <li><a href="home.php">Home</a></li>
-            <li><a href="mu-about">About</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#mu-about">About</a></li>
             <li><a href="#mu-featured-tours">Spot</a></li>
             <li><a href="pesann.php">Ticket</a></li>
             <li><a href="#">Contact</a></li>
