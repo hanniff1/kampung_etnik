@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pemesanan Tiket Villa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Pemesanan Tiket Villa</h2>
+    <form action="proses_pemesanan_villa.php" method="post">
+      <label for="kode_villa">Kode Villa : </label>
+      <select name="kode_villa" id="kode_villa" onchange="showHargaVilla()" required>
+        <option value="Villa A">1A DELIMA</option>
+        <option value="Villa B">2B ASEM</option>
+        <option value="Villa C">3C BRAMBANG</option>
+        <option value="Villa D">4D CIMPLUKAN</option>
+        <option value="Villa E">5E VIP(ASEM2A-B)</option>
+        <option value="Villa F">6F VIP DELIMA ATAS</option>
+        <option value="Villa G">7G YUDHISTIRA</option>
+      </select>
+      <br />
+
+      Harga: <span id="harga_villa_display">0</span><br />
+      <input type="hidden" id="harga_villa" name="harga_villa" value="0" />
+
+      Tanggal Kunjungan: <input type="date" name="tanggal_kunjungan" required /><br />
+      <input type="submit" value="Pesan" />
+    </form>
+
+    <script>
+      function showHargaVilla() {
+        var villa = document.getElementById("kode_villa").value;
+        var harga;
+        switch (villa) {
+          case "Villa A":
+            harga = 275000;
+            break;
+          case "Villa B":
+            harga = 300000;
+            break;
+          case "Villa C":
+            harga = 300000;
+            break;
+          case "Villa D":
+            harga = 300000;
+            break;
+          case "Villa E":
+            harga = 350000;
+            break;
+          case "Villa F":
+            harga = 400000;
+            break;
+          case "Villa G":
+            harga = 750000;
+            break;
+          default:
+            harga = 0;
+        }
+        document.getElementById("harga_villa_display").innerText = harga;
+        document.getElementById("harga_villa").value = harga; // Set hidden input value
+      }
+    </script>
+  </body>
+</html>

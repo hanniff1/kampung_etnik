@@ -1,5 +1,26 @@
+<?php
+
+include("../pesan/cobapemesananlagi/db.php");
+$nama_lengkap = $_POST["nama_lengkap"];
+$alamat = $_POST["alamat"];
+$no_telepon = $_POST["no_telepon"];
+$email = $_POST["email"];
+$jenis_kelamin = $_POST["jenis_kelamin"];
+$paket_wahana = $_POST["paket_wahana"];
+$harga_wahana = $_POST["harga_wahana"];
+$tanggal_kunjungan = $_POST["tanggal_kunjungan"];
+$jumlah_pengunjung = $_POST["jumlah_pengunjung"];
+$total_harga_wahana = $_POST["total_harga_wahana"];
+
+
+$query = "INSERT INTO pemesanan_wahana ('id', 'nama_lengkap', 'alamat', 'no_telepon', 'email', 'jenis_kelamin', 'paket_wahana', 'harga_wahana', 'tanggal_kunjungan', 'jumlah_pengunjung' 'total_harga_wahana') VALUES (NULL, $nama_lengkap, $alamat, $no_telepon, $email, $jenis_kelamin, $paket_wahana, $harga_wahan, $tanggal_kunjungan, $jumlah_pengunjung, $total_harga_wahana )"
+
+var_dump($_POST)
+?>
+
+
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
@@ -135,7 +156,9 @@
     </table>
     <br>
     <br>
-
+<?php
+    include('../pesan/cobapemesananlagi/index.php');
+?>
     <div class="wrapper">
         <h3>Pengunjung</h3>
         <form>
