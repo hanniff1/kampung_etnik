@@ -15,7 +15,7 @@ $total_harga_wahana = $_POST["total_harga_wahana"];
 
 $query = "INSERT INTO pemesanan_wahana ('id', 'nama_lengkap', 'alamat', 'no_telepon', 'email', 'jenis_kelamin', 'paket_wahana', 'harga_wahana', 'tanggal_kunjungan', 'jumlah_pengunjung' 'total_harga_wahana') VALUES (NULL, $nama_lengkap, $alamat, $no_telepon, $email, $jenis_kelamin, $paket_wahana, $harga_wahan, $tanggal_kunjungan, $jumlah_pengunjung, $total_harga_wahana )"
 
-var_dump($_POST)
+var_dump($_POST);
 ?>
 
 
